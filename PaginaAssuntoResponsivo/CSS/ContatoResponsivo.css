@@ -1,0 +1,29 @@
+body{
+    background-image: url(../IMG/planodefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+}
+  #MenuH li{
+    display:inline;
+    padding-left: 10px;
+  }
+
+  #MenuH li a {
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    display:inline-block;
+    transition: background .2s;
+  }
+
+  #usuario{
+    background-color:white;
+    text-align:center;
+    margin-right:3%;
+    margin-left:3%;
+    padding-top:20px;
+  
+  }
+
+  

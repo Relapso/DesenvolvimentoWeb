@@ -1,0 +1,120 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: url(../IMG/planodefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+    
+  
+  }
+#MenuH{
+    list-style: none;
+    padding: 0;
+    background-color:#285a85;
+    color:white;
+  
+    
+  }
+  
+  #MenuH li{
+    display:inline;
+  
+  }
+  
+  
+  #MenuH li a {
+    color:white;
+    text-decoration:none;
+    padding:20px;
+    display:inline-block;
+    transition: background .2s;
+  }
+  
+  #MenuH li a:hover{
+    background-color:rgb(97, 133, 192);
+  
+  }
+
+  #usuario{
+    background-color:white;
+    padding-bottom:10%;
+    text-align:center;
+    margin-right:30%;
+    margin-left:30%;
+    margin-top:50px;
+    padding:10px;
+    box-shadow: 0px 0px 10px lightsteelblue;
+    }
+
+  #Enviar{
+    border:none;
+    padding:10px 10px 10px 10px;
+    margin-top:15px;
+    background-color:#285a85;
+    outline:none;
+    color:white;
+    cursor:pointer;
+  }
+
+  #Enviar:hover{
+    background-color:#7b8b99;
+    transition: background .1s;
+  }
+
+  #Resetar{
+    border:none;
+    padding:10px 10px 10px 10px;
+    margin-top:15px;
+    background-color:#285a85;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    margin-left:15px;
+  }
+
+  #Resetar:hover{
+    background-color:#7b8b99;
+    transition: background .1s;
+  }
+
+  #titulo{
+  color:#285a85;
+  font-family:sans-serif;
+  margin:auto;
+  margin-bottom:20px;
+  }
+
+  input,select,textarea,button{
+    border-radius: 5px;
+  }
+
+  #inputLogin{
+    height:25px;
+    width:300px;
+    margin-bottom:15px;
+    
+  }
+
+  #inputEmail{
+    height:25px;
+    width:300px;
+    margin-bottom:15px;
+  }
+
+  #AreaDeTexto{
+    width:300px;
+    height:200px;
+  }
+
+  #rodape{
+    background-color:#285a85;;
+    color:white;
+    text-align: center;
+    margin-top:128px;
+    padding:5px;
+  }

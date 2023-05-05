@@ -1,0 +1,120 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../IMG/planodefundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:sans-serif;
+  
+
+}
+
+#titulo{
+  text-align:center;
+  color:#285a85;
+  background-color:white;
+  margin-left: 3%;
+  margin-right:3%;
+  border-radius:3px;
+  padding:10px;
+  box-shadow: 5px 6px lightblue;
+}
+
+#MenuH{
+  list-style: none;
+  padding: 0;
+  background-color:#285a85;
+  color:white;
+  box-shadow: 0px 0px 10px #808080;
+
+  
+}
+
+#MenuH li{
+  display:inline;
+
+}
+
+
+#MenuH li a {
+  color:white;
+  text-decoration:none;
+  padding:20px;
+  display:inline-block;
+  transition: background .2s;
+}
+
+#MenuH li a:hover{
+  background-color:rgb(97, 133, 192);
+
+}
+
+
+
+#ResumoFotos{
+  padding:10px;
+  background: rgb(79,142,221);
+  background: linear-gradient(180deg, rgba(79,142,221,1) 0%, rgba(35,157,233,0.28755252100840334) 79%, rgba(62,181,255,0.18951330532212884) 100%);
+  margin-left:3%;
+  margin-right:3%;
+  border-radius:3px;
+}
+
+#zelda1{
+  width:350px;
+  height:200px;
+  margin-left:70px;
+  transition: all .3s ease-in;
+}
+
+#zelda1:hover{
+  scale: 1.05;
+ 
+}
+
+
+#zelda2{
+  width:350px;
+  height:200px;
+  margin-left:70px;
+  transition: all .3s ease-in;
+}
+
+#zelda2:hover{
+  scale: 1.05;
+}
+
+#zelda3{
+  width:350px;
+  height:200px;
+  margin-left:70px;
+  transition: all .3s ease-in;
+}
+
+#zelda3:hover{
+  scale: 1.05;
+}
+
+#historia{
+  background-color:white;
+  padding:20px;
+  color:Black;  
+  margin-left:3%;
+  margin-right:3%;
+  text-align: justify;
+  line-height:25px;
+  border-radius:3px;
+  box-shadow: 0px 0px 10px #808080;
+}
+
+#rodape{
+  background-color:#285a85;;
+  color:white;
+  text-align: center;
+  margin-top:10px;
+  padding:5px;
+}

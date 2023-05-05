@@ -1,0 +1,63 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url(../IMG/planodefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+    
+  
+  }
+  #MenuH{
+    list-style: none;
+    padding: 0;
+    background-color:#285a85;
+    color:white;
+  
+    
+  }
+
+  #MenuH li{
+    display:inline;
+    padding-left: 10px;
+  }
+
+  #MenuH li a {
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    display:inline-block;
+    transition: background .2s;
+  }
+
+  #titulo{
+    text-align:center;
+    color:#285a85;
+    background-color:white;
+    margin-left: 3%;
+    margin-right:3%;
+    border-radius:3px;
+    font-size: 20px;
+  }
+
+  #zelda1{
+    width:70px;
+    height:70px;
+    margin-left:35px;
+  }
+  
+  #zelda2{
+    width:70px;
+    height:70px;
+    margin-left:35px;
+  }
+  
+  #zelda3{
+    width:70px;
+    height:70px;
+    margin-left:35px;
+  }
